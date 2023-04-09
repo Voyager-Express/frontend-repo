@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gönderi Yönet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <main>
+      <div class="col-md-3" style="margin-left: 15px; margin-top: 10px;">
+        <a href="admin.html" class="btn btn-primary btn-lg">Admin Paneli</a>
+      </div>
+      <div class="container mt-5 text-center">
+        <h3>Gönderi Yönet</h3>
+        <table class="table table-bordered table-dark table-hover rounded">
+          <thead>
+            <tr>
+              <th scope="col">Kargo İd</th>
+              <th scope="col">Adres</th>
+              <th scope="col">İl</th>
+              <th scope="col">Gönderi Alındı</th>
+              <th scope="col">Transfer Sürecinde</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">15655</th>
+              <td>.............................................. /Üsküdar</td>
+              <td>İstanbul</td>
+              <td><input type="radio" name="radio"></td>
+              <td><input type="radio" name="radio"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mudanya</td>
+              <td>Bursa</td>
+              <td><input type="radio" name="radio"></td>
+              <td><input type="radio" name="radio"></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Domaniç</td>
+              <td>Kütahya</td>
+              <td><input type="radio" name="radio"></td>
+              <td><input type="radio" name="radio"></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Kelkit Vadisi</td>
+              <td>Tokat</td>
+              <td><input type="radio" name="radio"></td>
+              <td><input type="radio" name="radio"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-center mt-3">
+          <button type="submit" class="btn btn-primary">KAYDET</button>
+        </div>
+      </div>
+    </main>
+    
+    
+    <script src="jquery/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function(){
+          $("#navbar").load("navbar.html");
+        });
+    </script>
+</body>
+</html>

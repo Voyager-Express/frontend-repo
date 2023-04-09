@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <main>
+        <div class="container mt-5 text-center">
+            <h3>Admin Paneli</h3>
+            <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="yenigönderim.html" class="btn btn-primary btn-lg">Yeni Gönderim</a>
+                    <span class="mx-2"></span>
+                    <a href="gönderiyönet.html" class="btn btn-primary btn-lg">Gönderi Yönet </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="jquery/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function(){
+          $("#navbar").load("navbar.html");
+        });
+    </script>
+</body>
+</html>
